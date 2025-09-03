@@ -1,9 +1,9 @@
 /**
- * BalanceSwille
+ * CalculateBalance
  * Calculates the remaining balance of users based on their limits and spends.
  * Demonstrates use of classes, private fields, getters/setters, and validations.
  */
-class BalanceSwille {
+class CalculateBalance {
   // Private fields
   #limits;
   #spends;
@@ -96,5 +96,6 @@ let limits = { user1: 294, user2: 630 };
 let spends = { user1: 132.95, user2: 326.47 };
 let balance = 924;
 
-const calculate = new BalanceSwille(limits, spends, balance);
+const calculate = new CalculateBalance(limits, spends, balance);
 console.log(calculate.run());
+
